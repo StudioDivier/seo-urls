@@ -1,0 +1,16 @@
+aiofile==3.3.3
+aiohttp==3.7.3
+async-timeout==3.0.1
+asyncio==3.4.3
+attrs==20.3.0
+beautifulsoup4==4.9.3
+bs4==0.0.1
+caio==0.6.3
+chardet==3.0.4
+idna==2.10
+lxml==4.6.2
+multidict==5.1.0
+sitemap-generator==0.9.2
+soupsieve==2.1
+typing-extensions==3.7.4.3
+yarl==1.6.3
