@@ -1,8 +1,8 @@
+import re
 import csv
 import json
 from bs4 import BeautifulSoup as bs
 from bm_algorithm import boyer_moore_match
-
 
 
 def csv_reader(file_obj):
@@ -78,6 +78,7 @@ def foring(test_link, sitemap_links):
                     return links
 
 
+
 def start():
     csv_path = "https_tdlider-spb.ru_443_f395b614ee2111737e8e400b.csv"
     xml_path = "sitemap.xml"
@@ -92,13 +93,15 @@ def start():
     # test_link.reverse()
 
     BIG_RESULT = {}
-    BIG_TRASH = []
+    BIG_TRASH = {}
 
     for bite in bite_links:
-        test_link = slice_link(bite)
+        e = re.sub(r'/p/\d', '', bite)
+        q = re.sub('catalog', '', e)
+        test_link = slice_link(q)
 
         link = foring(test_link, sitemap_links)
-        BIG_RESULT[bite] = [link]
+        BIG_RESULT['https://tdlider-spb.ru' + bite] = [link]
 
     return BIG_RESULT
 
@@ -107,4 +110,5 @@ if __name__ == "__main__":
     good = start()
     with open('result.json', 'w', encoding='utf-8') as file:
         json.dump(good, file)
+
     print('complete.')
