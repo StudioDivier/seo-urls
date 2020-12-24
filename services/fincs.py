@@ -74,7 +74,8 @@ def foring(test_link, sitemap_links):
             for links in sitemap_links:
                 result = boyer_moore_match(links, part)
                 if result is True:
-                    return links
+                    if part == links.split('/')[-1]:
+                        return links
 
 
 def start(csv_path, xml_path):
@@ -91,7 +92,7 @@ def start(csv_path, xml_path):
     # test_link.reverse()
 
     BIG_RESULT = {}
-    BIG_TRASH = {}
+    BIG_TRASH = []
 
     for bite in bite_links:
         e = re.sub(r'/p/\d', '', bite)
@@ -99,8 +100,11 @@ def start(csv_path, xml_path):
         test_link = slice_link(q)
 
         link = foring(test_link, sitemap_links)
-        BIG_RESULT['https://tdlider-spb.ru' + bite] = [link]
+        if link == None:
+            BIG_TRASH.append(bite)
+        else:
+            BIG_RESULT['https://tdlider-spb.ru' + bite] = [link]
 
-    return BIG_RESULT
+    return BIG_RESULT, BIG_TRASH
 
 
