@@ -1,6 +1,8 @@
 # SEO-UTILS: error 404 urls checker
-![GitHub](https://img.shields.io/github/license/StudioDivier/seo-urls) ![GitHub followers](https://img.shields.io/github/followers/aliensowo)
+
+![GitHub](https://img.shields.io/github/license/StudioDivier/seo-urls?label=license) ![GitHub followers](https://img.shields.io/github/followers/aliensowo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/StudioDivier/seo-urls) ![GitHub repo size](https://img.shields.io/github/repo-size/StudioDivier/seo-urls)
+
 ## USING
 
 Файл `sitemap.py` составит полный sitemap.xml сайта и сохранит результат в `file_input\sitemap.xml`.
