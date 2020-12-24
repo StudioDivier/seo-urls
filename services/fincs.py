@@ -103,7 +103,7 @@ def start(csv_path, xml_path):
         if link == None:
             BIG_TRASH.append(bite)
         else:
-            BIG_RESULT['https://tdlider-spb.ru' + bite] = [link]
+            BIG_RESULT[bite] = [link]
 
     return BIG_RESULT, BIG_TRASH
 

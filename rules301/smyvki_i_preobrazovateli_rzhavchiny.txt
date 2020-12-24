@@ -1,0 +1,5 @@
+Redirect 301 /catalogantikras/ https://tdlider-spb.ru/smyvki_i_preobrazovateli_rzhavchiny/antikras
+Redirect 301 /catalogaps_m10 https://tdlider-spb.ru/smyvki_i_preobrazovateli_rzhavchiny/aps_m10
+Redirect 301 /catalogsmyvki-krasok https://tdlider-spb.ru/smyvki_i_preobrazovateli_rzhavchiny/smyvki-krasok
+Redirect 301 /catalogantikras_sprint/ https://tdlider-spb.ru/smyvki_i_preobrazovateli_rzhavchiny/antikras_sprint
+Redirect 301 /catalogaps_m10/ https://tdlider-spb.ru/smyvki_i_preobrazovateli_rzhavchiny/aps_m10

@@ -1,0 +1,3 @@
+Redirect 301 /catalogkraski-metallik/kraska_metallik_aerozol_magicline/ https://tdlider-spb.ru/aerozolnye_kraski/kraski-metallik/kraska_metallik_aerozol_magicline
+Redirect 301 /catalogtermostoykie-kraski https://tdlider-spb.ru/aerozolnye_kraski/termostoykie-kraski
+Redirect 301 /cataloglaki-aerozolnye/lak_aerozolnyy_glyantsevyy_magicline/ https://tdlider-spb.ru/aerozolnye_kraski/laki-aerozolnye/lak_aerozolnyy_glyantsevyy_magicline

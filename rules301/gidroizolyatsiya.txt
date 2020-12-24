@@ -1,0 +1,3 @@
+Redirect 301 /cataloggidropan/ https://tdlider-spb.ru/gidroizolyatsiya/gidropan
+Redirect 301 /catalogfasadka_teplozashchita_antiplesen/ https://tdlider-spb.ru/gidroizolyatsiya/fasadka_teplozashchita_antiplesen
+Redirect 301 /catalogmastika_gidroizolyatsionnaya_universal/ https://tdlider-spb.ru/gidroizolyatsiya/mastika_gidroizolyatsionnaya_universal

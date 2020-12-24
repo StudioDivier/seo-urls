@@ -1,6 +1,7 @@
 import json
 import time
 from services.fincs import start
+from services.htaccess_rules import redirect_301
 
 
 def main(csv_path, xml_path):
@@ -20,4 +21,5 @@ if __name__ == '__main__':
     xml_path = "file_input/sitemap.xml"
 
     main(csv_path, xml_path)
+    redirect_301()
 

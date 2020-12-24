@@ -1,0 +1,2 @@
+Redirect 301 /catalogpoliuretanovye-nalivnye-poly/ascoat_pu_ib_floor/ https://tdlider-spb.ru/polimernye-poly/iskrobezopasnye-nalivnye-poly/ascoat_pu_ib_floor
+Redirect 301 /catalogepoksidnye-nalivnye-poly https://tdlider-spb.ru/polimernye-poly/epoksidnye-nalivnye-poly

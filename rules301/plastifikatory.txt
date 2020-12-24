@@ -1,0 +1,1 @@
+Redirect 301 /catalogdbf_dibutilftalat/ https://tdlider-spb.ru/plastifikatory/dbf_dibutilftalat
