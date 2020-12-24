@@ -12,4 +12,4 @@ if __name__ == '__main__':
 
     # root_url = sys.argv[1]
     root_url = 'https://tdlider-spb.ru/'
-    crawler(root_url, out_file='sitemap.xml')
+    crawler(root_url, out_file='file_input/sitemap.xml')
