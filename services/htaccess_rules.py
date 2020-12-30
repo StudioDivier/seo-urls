@@ -1,5 +1,6 @@
 import os
 import json
+import math
 
 
 def filtring_data():
@@ -42,12 +43,19 @@ def redirect_301():
             invalid = json.load(id)
         with open('file_output/filter_data.json', 'r') as fd:
             valid = json.load(fd)
-
+        links = []
         for elem in valid:
             title = elem
             with open('rules301/{}.txt'.format(title), 'w', encoding='utf-8') as file:
                 for i in range(len(valid[elem])):
+                    links.append(invalid[elem][i])
                     file.write("Redirect 301 {} {}\n".format(invalid[elem][i], valid[elem][i]))
+
+        with open('file_output/invalid_data.txt', 'w', encoding='utf-8') as id_txt:
+            for i in range(len(links)):
+                if i % 140 == 0:
+                    id_txt.write('# {}\n'.format(i // 140))
+                id_txt.write('https://tdlider-spb.ru/{}\n'.format(links[i]))
 
         delete_dublicate()
 

@@ -1,5 +1,5 @@
+Redirect 301 /catalogpinotex_lacker_yacht/ https://tdlider-spb.ru/laki/pinotex_lacker_yacht
 Redirect 301 /catalogfl_98/ https://tdlider-spb.ru/laki/po-metallu/fl_98
 Redirect 301 /catalogko_916/ https://tdlider-spb.ru/laki/ko_916
-Redirect 301 /catalogpo-derevu/dulux_celco_terra_90 https://tdlider-spb.ru/laki/dulux_celco_terra_90
 Redirect 301 /catalogtikkurila_paneeli_assa_titan/ https://tdlider-spb.ru/laki/tikkurila_paneeli_assa_titan
-Redirect 301 /catalogpinotex_lacker_yacht/ https://tdlider-spb.ru/laki/pinotex_lacker_yacht
+Redirect 301 /catalogpo-derevu/dulux_celco_terra_90 https://tdlider-spb.ru/laki/dulux_celco_terra_90
