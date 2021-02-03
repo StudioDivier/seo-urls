@@ -17,7 +17,7 @@ def main(csv_path, xml_path):
 
 if __name__ == '__main__':
 
-    csv_path = "file_input/https_tdlider-spb.ru_443_f395b614ee2111737e8e400b.csv"
+    csv_path = "file_input/https_tdlider-spb.ru_new24.12-03.02.csv"
     xml_path = "file_input/sitemap.xml"
 
     main(csv_path, xml_path)

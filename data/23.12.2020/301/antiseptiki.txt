@@ -1,0 +1,5 @@
+Redirect 301 /catalogneomid_ognebiozashchita_dlya_stroitelnykh_lesov/ https://tdlider-spb.ru/antiseptiki/neomid_ognebiozashchita_dlya_stroitelnykh_lesov
+Redirect 301 /catalogneomid_stopzhuk/ https://tdlider-spb.ru/antiseptiki/zashchitnye/neomid_stopzhuk
+Redirect 301 /antiseptiki/zashchitnyi https://tdlider-spb.ru/antiseptiki
+Redirect 301 /antiseptiki/dekorativno-zashchitnyi https://tdlider-spb.ru/antiseptiki
+Redirect 301 /catalogtikkurila_valtti_plus_kesto/ https://tdlider-spb.ru/antiseptiki/tikkurila_valtti_plus_kesto

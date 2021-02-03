@@ -1,0 +1,3 @@
+Redirect 301 /catalogsaicos_speed_up/ https://tdlider-spb.ru/soputstvuyushchie-tovary/saicos_speed_up
+Redirect 301 /catalogvalik_poliamid_230_mm/ https://tdlider-spb.ru/soputstvuyushchie-tovary/valik_poliamid_230_mm
+Redirect 301 /catalogkist_radiatornaya_50_mm/ https://tdlider-spb.ru/soputstvuyushchie-tovary/kist_radiatornaya_50_mm

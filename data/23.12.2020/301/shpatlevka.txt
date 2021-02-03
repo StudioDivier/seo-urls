@@ -1,0 +1,2 @@
+Redirect 301 /catalogepostat_shpatlyevka/ https://tdlider-spb.ru/shpatlevka/epostat_shpatlyevka
+Redirect 301 /catalogtikkurila_euro_filler_light/ https://tdlider-spb.ru/shpatlevka/tikkurila_euro_filler_light
