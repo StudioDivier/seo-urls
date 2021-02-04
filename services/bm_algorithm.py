@@ -39,22 +39,3 @@ def boyer_moore_match(text, pattern):
             j = m - 1
     return -1
 
-
-### TEST FUNCTION ###
-#
-# if __name__ == '__main__':
-#     # def show_match(text, pattern):
-#     #     print('Text:  %s' % text)
-#     #     p = boyer_moore_match(text, pattern)
-#     #     print('Match: %s%s' % ('.' * p, pattern))
-#     # show_match(text, pattern)
-#
-#     text = '/kraski_i_emali/interernye'
-#     pattern = 'ko_916'
-#     p = boyer_moore_match(text, pattern)
-#     if p:
-#         print("1")
-#     else:
-#         print("0")
-
-

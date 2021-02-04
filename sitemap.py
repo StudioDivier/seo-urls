@@ -10,6 +10,7 @@ if __name__ == '__main__':
         el = windows_events.ProactorEventLoop()
         events.set_event_loop(el)
 
+
     # root_url = sys.argv[1]
     root_url = 'https://tdlider-spb.ru/'
     crawler(root_url, out_file='file_input/sitemap.xml')

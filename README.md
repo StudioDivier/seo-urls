@@ -109,6 +109,12 @@ ____
     Redirect 301 /catalogkleypol/ https://tdlider-spb.ru/kley/kleypol
  
 
+## Анлитика (сырая)
+**Анализ переобхода роботом Яндекса**
+
+![analitic](img1.png)
+
+
 
 ## CHECK-LIST
 
